@@ -11,7 +11,8 @@ Our database consists of two tables.
 
 This table has a unique identifier in site_id along with its daily_mean_pm10_conentration & daily_aqi_value.
 
-<img width="606" alt="Screenshot 2023-10-04 at 11 37 24 AM" src="https://github.com/metc1999/demo/assets/138830908/868fb250-d60f-4789-b2e1-0df0bcc66c4e">
+![image](https://github.com/PiaoLing-nb/com-presentation/assets/138830908/1b91a85a-3e8c-4b4b-b66f-8371e1f6cf1c)
+
 
 **epa_site_location**
 
