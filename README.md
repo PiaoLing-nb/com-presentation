@@ -1,6 +1,7 @@
 ## JOINS
 
-![image](https://github.com/metc1999/demo/assets/138830908/c7c484cb-869c-4302-b77d-36f44244dff0)
+![image](https://github.com/PiaoLing-nb/com-presentation/assets/138830908/465d576d-199e-4ff0-b289-a7c610896e20)
+
 
 ## Data
 
