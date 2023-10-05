@@ -62,7 +62,7 @@ The demo of our code to illustrate joins can be found here:
 [Sample Query](/Code_Demo.sql)
 
 
-## AUTHORS
+## Authors
 
 Essa Chawla
 
