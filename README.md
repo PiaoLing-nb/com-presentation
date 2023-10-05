@@ -36,7 +36,7 @@ An Inner Join is a type of SQL operation used to combine rows from two or more t
 A cross join, combines each row from one table with every row from another table, resulting in a Cartesian product of the two tables. In other words, it creates all possible combinations of rows between the two tables.
 Here is the first 10 output after *CROSS JOIN* the 'epa_air_quality' and 'epa_site_location'.
 
-![result of cross join](/img/cross_join.png?raw=true "the first row of the left table is now matching each row in the right table")
+![result of cross join](/imgs/cross_join.png?raw=true "the first row of the left table is now matching each row in the right table")
 
 
 **LEFT(OUTER) Join/RIGHT Join**
