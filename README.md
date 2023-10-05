@@ -27,7 +27,8 @@ This table has a unique identifier in site_id along with its site latitude, site
 
 An Inner Join is a type of SQL operation used to combine rows from two or more tables based on a related column between them. It returns only the rows for which there is a match in both tables, effectively filtering out rows that do not have corresponding values in the specified columns. Following is the output after we perform an *INNER JOIN* of 'epa_air_quality' and 'epa_site_location' on *site_id*.
 
-<img width="837" alt="Screenshot 2023-10-04 at 11 57 57 AM" src="https://github.com/metc1999/demo/assets/138830908/1031eb11-34ca-4f92-82bd-524bc80dbfe7">
+![image](https://github.com/PiaoLing-nb/com-presentation/assets/138830908/8b21af42-79e4-49ca-a197-193456bf5f08)
+
 
 
 **Cross Join**
