@@ -34,24 +34,32 @@ An Inner Join is a type of SQL operation used to combine rows from two or more t
 **Cross Join**
 
 A cross join, combines each row from one table with every row from another table, resulting in a Cartesian product of the two tables. In other words, it creates all possible combinations of rows between the two tables.
+Here is the first 10 output after *CROSS JOIN* the 'epa_air_quality' and 'epa_site_location'.
+
+![Alt text](https://github.com/PiaoLing-nb/com-presentation/blob/img/cross_join.png?raw=true "the first row of the left table is now matching each row in the right table")
 
 
-**LEFT(OUTER) Join**
+**LEFT(OUTER) Join/RIGHT Join**
 
-Retrieves all rows from the left table (the first table specified) and the matching rows from the right table (the second table specified). If there is no match in the right table, NULL values are returned for columns from the right table.
+Retrieves all rows from the left/right table (the first/second table specified) and the matching rows from the right/right table (the second table specified). If there is no match in the right/left table, NULL values are returned for columns from the right/left table.
+Basically, the right join is just doing left join in the reversely, as they are using the same logic just in the different order.
+Here is the frist 10 output for *LEFT/RIGHT JOIN* on the 'epa_air_quality' and 'epa_site_location'.
 
+![Alt text](https://github.com/PiaoLing-nb/com-presentation/blob/img/leftjoin.png?raw=true "every row in the left table is preserved, but not for the right table")
 
-**Right(OUTER) Join**
-
-This query returns all rows from both tables, including both matching and non-matching rows.If there is no match in the left table, NULL values are returned for columns from the left table.
+![Alt text](https://github.com/PiaoLing-nb/com-presentation/blob/img/rightjoin.png?raw=true "just the same trick, but this time everything in the right table is preserved")
 
 
 **Full(OUTER)Join**
 
-Retrieves all rows when there is a match in either the left or the right table. If there is no match in one of the tables, NULL values are returned for columns from the table without a match.
+Retrieves all rows when there is a match in either the left or the right table. If there is no match in one of the tables, NULL values are returned for columns from the table without a match. Not like the cross join, this would not generate that much redundancy, and keeps all the information from the two tables.
+And this is the first 10 results for *FULL JOIN* on the 'epa_air_quality' and 'epa_site_location'.
+
+![Alt text](https://github.com/PiaoLing-nb/com-presentation/blob/img/fulljoin.png?raw=true "we value the both table the same, so just keep everything")
 
 Code:
 The demo of our code to illustrate joins can be found here:
+[Sample Query](../blob/Code_Demo.sql)
 
 
 
