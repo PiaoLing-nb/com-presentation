@@ -63,8 +63,11 @@ The demo of our code to illustrate joins can be found here:
 
 
 ## AUTHORS
+
 Essa Chawla
+
 Yepeng Li
+
 Ronel Solomon
 
 
