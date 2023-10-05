@@ -17,7 +17,8 @@ This table has a unique identifier in site_id along with its daily_mean_pm10_con
 
 This table has a unique identifier in site_id along with its site latitude, site longitude, county & state.
 
-<img width="661" alt="Screenshot 2023-10-04 at 11 37 55 AM" src="https://github.com/metc1999/demo/assets/138830908/f6bc456e-a72f-468b-822f-3189c785fe83">
+![image](https://github.com/PiaoLing-nb/com-presentation/assets/138830908/df32063b-dfd1-440a-96bb-e82dfccdd536)
+
 
 
 ## Different Types of Joins
