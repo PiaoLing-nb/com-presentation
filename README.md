@@ -23,7 +23,7 @@ This table has a unique identifier in site_id along with its site latitude, site
 
 
 ## Different Types of Joins
-**Inner Join**
+**INNER Join**
 
 An Inner Join is a type of SQL operation used to combine rows from two or more tables based on a related column between them. It returns only the rows for which there is a match in both tables, effectively filtering out rows that do not have corresponding values in the specified columns. Following is the output after we perform an *INNER JOIN* of 'epa_air_quality' and 'epa_site_location' on *site_id*.
 
@@ -31,7 +31,7 @@ An Inner Join is a type of SQL operation used to combine rows from two or more t
 
 
 
-**Cross Join**
+**CROSS Join**
 
 A cross join, combines each row from one table with every row from another table, resulting in a Cartesian product of the two tables. In other words, it creates all possible combinations of rows between the two tables.
 Here is the first 10 output after *CROSS JOIN* the 'epa_air_quality' and 'epa_site_location'.
@@ -39,7 +39,7 @@ Here is the first 10 output after *CROSS JOIN* the 'epa_air_quality' and 'epa_si
 ![result of cross join](/imgs/cross_join.png?raw=true "the first row of the left table is now matching each row in the right table")
 
 
-**LEFT(OUTER) Join/RIGHT Join**
+**LEFT(OUTER) Join & RIGHT Join**
 
 Retrieves all rows from the left/right table (the first/second table specified) and the matching rows from the right/right table (the second table specified). If there is no match in the right/left table, NULL values are returned for columns from the right/left table.
 Basically, the right join is just doing left join in the reversely, as they are using the same logic just in the different order.
@@ -50,7 +50,7 @@ Here is the frist 10 output for *LEFT/RIGHT JOIN* on the 'epa_air_quality' and '
 ![result of right join](/imgs/rightjoin.png?raw=true "just the same trick, but this time everything in the right table is preserved")
 
 
-**Full(OUTER)Join**
+**FULL(OUTER)Join**
 
 Retrieves all rows when there is a match in either the left or the right table. If there is no match in one of the tables, NULL values are returned for columns from the table without a match. Not like the cross join, this would not generate that much redundancy, and keeps all the information from the two tables.
 And this is the first 10 results for *FULL JOIN* on the 'epa_air_quality' and 'epa_site_location'.
@@ -60,6 +60,12 @@ And this is the first 10 results for *FULL JOIN* on the 'epa_air_quality' and 'e
 Code:
 The demo of our code to illustrate joins can be found here:
 [Sample Query](/Code_Demo.sql)
+
+
+## AUTHORS
+Essa Chawla
+Yepeng Li
+Ronel Solomon
 
 
 
