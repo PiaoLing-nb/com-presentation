@@ -45,9 +45,9 @@ Retrieves all rows from the left/right table (the first/second table specified) 
 Basically, the right join is just doing left join in the reversely, as they are using the same logic just in the different order.
 Here is the frist 10 output for *LEFT/RIGHT JOIN* on the 'epa_air_quality' and 'epa_site_location'.
 
-![result of left join](/img/leftjoin.png?raw=true "every row in the left table is preserved, but not for the right table")
+![result of left join](/imgs/leftjoin.png?raw=true "every row in the left table is preserved, but not for the right table")
 
-![result of right join](/img/rightjoin.png?raw=true "just the same trick, but this time everything in the right table is preserved")
+![result of right join](/imgs/rightjoin.png?raw=true "just the same trick, but this time everything in the right table is preserved")
 
 
 **Full(OUTER)Join**
@@ -55,7 +55,7 @@ Here is the frist 10 output for *LEFT/RIGHT JOIN* on the 'epa_air_quality' and '
 Retrieves all rows when there is a match in either the left or the right table. If there is no match in one of the tables, NULL values are returned for columns from the table without a match. Not like the cross join, this would not generate that much redundancy, and keeps all the information from the two tables.
 And this is the first 10 results for *FULL JOIN* on the 'epa_air_quality' and 'epa_site_location'.
 
-![reuslt of full join](/img/fulljoin.png?raw=true "we value the both table the same, so just keep everything")
+![reuslt of full join](/imgs/fulljoin.png?raw=true "we value the both table the same, so just keep everything")
 
 Code:
 The demo of our code to illustrate joins can be found here:
